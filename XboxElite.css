@@ -1,0 +1,263 @@
+/*BEGIN XBOX Controller Styling*/
+
+.controller.custom{
+    background: url(https://drive.google.com/uc?export=download&id=1-R_uG9_J-2QrVf-GmWOhq_rRUBA4L7FT);
+    height: 657px;
+    width: 781px;
+    background-position-x: 0px;
+    background-repeat:no-repeat;
+}
+.custom.disconnected { /* This class shows an image when the controller is disconnected */
+    background: url(https://drive.google.com/uc?export=download&id=1gvemA_WANg4Rf_QkhgTqF4CZaMcAWMID);
+    background-repeat:no-repeat;
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+ .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+    width: 127px;
+    height: 93px;
+    top: 0px;
+    left:px;
+    position: absolute;
+    background-repeat:no-repeat;
+} 
+.custom .trigger{/* These are the actual triggers themselves */
+    height: 657px;
+    width: 781px;
+   
+    background-repeat:no-repeat;
+}
+.custom .trigger.left{ 
+    float: left;
+
+ background: url(https://drive.google.com/uc?export=download&id=1Ht3Yx6OjqWUslE7MCJlziCVS1VB43cE_);
+    background-position-x: 0px;
+    position: absolute;
+}
+.custom .trigger.right{
+    float: left;
+
+    background: url(https://drive.google.com/uc?export=download&id=1Z5gnqKRTUIMbGMJn8zDHAUSjrG3gDYnD);
+    background-position-x: 0px;
+    position: absolute;
+}
+.custom .bumper{
+    width: 208px;
+    height: 333px;
+    left: 121px;
+    top: 134px;
+    background: url(https://drive.google.com/uc?export=download&id=1jV-T_3MXPaKwcWaBdCfDnjeid8ksdWsg);
+    opacity: 0;
+    background-repeat:no-repeat;
+    position: absolute;
+}
+.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
+    opacity: 1;
+}
+.custom .bumper.right{
+     -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    float: left;
+    left: 453px;
+    top: 134px;
+}
+.custom .bumper.left{
+    float: right;
+}
+/* This is to size and position the containing div for the 
+start and select buttons. */
+.custom .arrows{
+    position: absolute;
+    width: 205px;
+    height: 19px;
+    top: 250px;
+    left: 291px;
+    background-repeat:no-repeat;
+}
+/* Setting the size and CSS sprite for the start adn select buttons */
+.custom .back, .custom .start{
+ 
+    background-repeat:no-repeat;
+}
+.custom .back.pressed{
+    /*background-position-y: -1px;*/
+          position: absolute;
+    height: 657px;
+    width: 781px;
+    top: 23px;
+    left: 26px;
+    background: url(https://drive.google.com/uc?export=download&id=1uXRKjQkAGHru3NPku71pux7Tifq0kFg6);
+    background-repeat:no-repeat;
+    opacity: 1;
+}
+.custom .start.pressed{
+    /*background-position-y: -1px;*/
+          position: absolute;
+    height: 657px;
+    width: 781px;
+    top: 23px;
+    left: 139px;
+    background: url(https://drive.google.com/uc?export=download&id=16s1tLthnONb8OgsrvqFwvEnx355i8I4m);
+    background-repeat:no-repeat;
+    opacity: 1;
+}
+.custom .back{ /* share */
+    position: absolute;
+    top: -101px;
+    left: -55px;
+    float: left;
+    width: 38px;
+    height: 50px;
+    opacity: 0;
+}
+.custom .start{ /* options */
+    position: absolute;
+    top: -101px;
+    left: 284px;
+    float: right;
+    width: 38px;
+    height: 50px;
+    opacity: 0;
+    background-position: px 0;
+}
+/* Positioning and size of the container for the face buttons */
+
+/* base class used to simplify the sprite mapping */
+.custom .abxy{
+    position: absolute;
+      eight: 657px;
+    width: 781px;
+    background-repeat:no-repeat;
+}
+
+.custom .button{
+    position: absolute;
+}
+.custom .button.pressed{
+    background-position-y: -0px;
+    margin-top: 0px;
+}
+.custom .a.pressed{ /* X on PS4*/
+    background: url(https://drive.google.com/uc?export=download&id=1PfH5s9B4F39ynYVPgPUBz012DMXmHgo1); 
+    height: 657px;
+    width: 781px;
+    background-repeat:no-repeat;
+}
+.custom .b.pressed{ /* circle on PS4*/
+    background: url(https://drive.google.com/uc?export=download&id=1e06_dZs-gpGCud32VlhByTJI3jzlhmtf); 
+    height: 657px;
+    width: 781px;
+    background-repeat:no-repeat;
+}
+.custom .x.pressed{ /* square on PS4*/
+    background: url(https://drive.google.com/uc?export=download&id=1RTT-7hb3-vg7xy6wd2saSMcSwZ-nL4_G); 
+    height: 657px;
+    width: 781px;
+    background-repeat:no-repeat;
+}
+.custom .y.pressed{ /* Triangle on PS4*/
+    background: url(https://drive.google.com/uc?export=download&id=1WFoIahL13msD3PFL2xDTs7cuHPZyI2eL);  
+    height: 657px;
+    width: 781px;
+    background-repeat:no-repeat;
+}
+
+.custom .sticks{
+    position: absolute;
+    width: 310px;
+    height: 100px;
+    top: 374px;
+    left: 240px;
+    background-repeat:no-repeat;
+}
+.custom .stick{
+    position: absolute;
+    background: url(https://drive.google.com/uc?export=download&id=1MqOdl3UBs7qb64LUT5Yc41zgXUc9Hl79);
+    height:88px;
+    width: 88px;
+    background-repeat:no-repeat;
+}
+.custom .stick.pressed.left{
+    background-position-x: -88px;
+}
+.custom .stick.pressed.right{
+    background-position-x: -88px;
+}
+.custom .stick.left{
+    top: -128px;
+    left: -90px;
+}
+.custom .stick.right{
+    top: calc(100% - 108px);
+    left: calc(100% - 100px);
+}
+/* Dpad possitioning and sizing */
+.custom .dpad{
+    height: 889px;
+    width: 1000px;
+    background-position-x: -8px;
+    background-repeat:no-repeat;
+}
+.custom .face{
+    background: url(dpad.png);
+    position: absolute;
+}
+.custom .face.right.pressed{
+    background: url(https://drive.google.com/uc?export=download&id=1_OyERzRHO8JmJn4tBrjatXl85ykD-PS3);  
+    position: absolute;
+
+    height: 889px;
+    width: 1000px;
+    top: 2px;
+    left: -4px;
+    background-repeat:no-repeat;
+}
+.custom .face.left.pressed{
+    background: url(https://drive.google.com/uc?export=download&id=1T5qqFTHjQQi3WNSs0F1tF08j_PkIiY11), url(); 
+    height: 889px;
+    width: 1000px;
+    top: -5px;
+    left: 2px;
+    background-repeat:no-repeat;
+}
+.custom .face.up.pressed{
+    background: url(https://drive.google.com/uc?export=download&id=1x_ZIfVi3T34CoVxSat3u-R_r1KI5b5SR), url(); 
+    height: 889px;
+    width: 1000px;
+    top: 2px;
+    left: -1px;
+    background-repeat:no-repeat;
+}
+.custom .face.down.pressed{ 
+    background: url(https://drive.google.com/uc?export=download&id=1dJKAbdg6t3KB11Itl6Bi0-PlG2YINkIh), url(); 
+    height: 889px;
+    width: 1000px;
+    top: -6px;
+    left: 0px;
+    background-repeat:no-repeat;
+}
+.custom .trigger-button.left{
+    left: 600px;
+    top: 77px;
+    background-position: 0px 0px;
+    background-repeat:no-repeat; 
+}
+.custom .trigger-button.right{ 
+}
+.custom .trigger-button.left.pressed{  
+}
+.custom .trigger-button.right.pressed{  
+}
+.custom .touchpad.pressed{
+    position:absolute;
+    width: 280px;
+    height: 160px;
+    top: 127px;
+    left: 282px;
+    background: url(touchpad.png);
+    background-repeat:no-repeat; 
+}
+
+/*END XBOX Controller Styling*/
