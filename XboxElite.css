@@ -1,14 +1,14 @@
 /*BEGIN XBOX Controller Styling*/
 
 .controller.custom{
-    background: url(https://drive.google.com/uc?export=download&id=1-R_uG9_J-2QrVf-GmWOhq_rRUBA4L7FT);
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/base.png);
     height: 657px;
     width: 781px;
     background-position-x: 0px;
     background-repeat:no-repeat;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(https://drive.google.com/uc?export=download&id=1gvemA_WANg4Rf_QkhgTqF4CZaMcAWMID);
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/disconnected.png);
     background-repeat:no-repeat;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
@@ -32,14 +32,14 @@
 .custom .trigger.left{ 
     float: left;
 
- background: url(https://drive.google.com/uc?export=download&id=1Ht3Yx6OjqWUslE7MCJlziCVS1VB43cE_);
+ background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/L2.png);
     background-position-x: 0px;
     position: absolute;
 }
 .custom .trigger.right{
     float: left;
 
-    background: url(https://drive.google.com/uc?export=download&id=1Z5gnqKRTUIMbGMJn8zDHAUSjrG3gDYnD);
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/R2.png);
     background-position-x: 0px;
     position: absolute;
 }
@@ -48,7 +48,7 @@
     height: 333px;
     left: 121px;
     top: 134px;
-    background: url(https://drive.google.com/uc?export=download&id=1jV-T_3MXPaKwcWaBdCfDnjeid8ksdWsg);
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/bumper.png);
     opacity: 0;
     background-repeat:no-repeat;
     position: absolute;
@@ -88,7 +88,7 @@ start and select buttons. */
     width: 781px;
     top: 23px;
     left: 26px;
-    background: url(https://drive.google.com/uc?export=download&id=1uXRKjQkAGHru3NPku71pux7Tifq0kFg6);
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/back.png);
     background-repeat:no-repeat;
     opacity: 1;
 }
@@ -99,7 +99,7 @@ start and select buttons. */
     width: 781px;
     top: 23px;
     left: 139px;
-    background: url(https://drive.google.com/uc?export=download&id=16s1tLthnONb8OgsrvqFwvEnx355i8I4m);
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/start.png);
     background-repeat:no-repeat;
     opacity: 1;
 }
@@ -140,25 +140,25 @@ start and select buttons. */
     margin-top: 0px;
 }
 .custom .a.pressed{ /* X on PS4*/
-    background: url(https://drive.google.com/uc?export=download&id=1PfH5s9B4F39ynYVPgPUBz012DMXmHgo1); 
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/A.png); 
     height: 657px;
     width: 781px;
     background-repeat:no-repeat;
 }
 .custom .b.pressed{ /* circle on PS4*/
-    background: url(https://drive.google.com/uc?export=download&id=1e06_dZs-gpGCud32VlhByTJI3jzlhmtf); 
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/B.png); 
     height: 657px;
     width: 781px;
     background-repeat:no-repeat;
 }
 .custom .x.pressed{ /* square on PS4*/
-    background: url(https://drive.google.com/uc?export=download&id=1RTT-7hb3-vg7xy6wd2saSMcSwZ-nL4_G); 
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/X.png); 
     height: 657px;
     width: 781px;
     background-repeat:no-repeat;
 }
 .custom .y.pressed{ /* Triangle on PS4*/
-    background: url(https://drive.google.com/uc?export=download&id=1WFoIahL13msD3PFL2xDTs7cuHPZyI2eL);  
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/Y.png);  
     height: 657px;
     width: 781px;
     background-repeat:no-repeat;
@@ -174,7 +174,7 @@ start and select buttons. */
 }
 .custom .stick{
     position: absolute;
-    background: url(https://drive.google.com/uc?export=download&id=1MqOdl3UBs7qb64LUT5Yc41zgXUc9Hl79);
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/stick.png);
     height:88px;
     width: 88px;
     background-repeat:no-repeat;
@@ -205,7 +205,7 @@ start and select buttons. */
     position: absolute;
 }
 .custom .face.right.pressed{
-    background: url(https://drive.google.com/uc?export=download&id=1_OyERzRHO8JmJn4tBrjatXl85ykD-PS3);  
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/R.png);  
     position: absolute;
 
     height: 889px;
@@ -215,7 +215,7 @@ start and select buttons. */
     background-repeat:no-repeat;
 }
 .custom .face.left.pressed{
-    background: url(https://drive.google.com/uc?export=download&id=1T5qqFTHjQQi3WNSs0F1tF08j_PkIiY11), url(); 
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/L.png), url(); 
     height: 889px;
     width: 1000px;
     top: -5px;
@@ -223,7 +223,7 @@ start and select buttons. */
     background-repeat:no-repeat;
 }
 .custom .face.up.pressed{
-    background: url(https://drive.google.com/uc?export=download&id=1x_ZIfVi3T34CoVxSat3u-R_r1KI5b5SR), url(); 
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/U.png), url(); 
     height: 889px;
     width: 1000px;
     top: 2px;
@@ -231,7 +231,7 @@ start and select buttons. */
     background-repeat:no-repeat;
 }
 .custom .face.down.pressed{ 
-    background: url(https://drive.google.com/uc?export=download&id=1dJKAbdg6t3KB11Itl6Bi0-PlG2YINkIh), url(); 
+    background: url(https://raw.githubusercontent.com/CatbotTsumi/GPVXE/main/D.png), url(); 
     height: 889px;
     width: 1000px;
     top: -6px;
